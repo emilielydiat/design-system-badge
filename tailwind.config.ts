@@ -35,6 +35,9 @@ export default {
         "badge-circle": radiusTokens.circle,
         "badge-rounded": radiusTokens.rounded,
       },
+      fontFamily: {
+        sans: ["Inter", "sans-serif"],
+      },
     },
   },
   plugins: [],

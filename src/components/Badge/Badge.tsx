@@ -74,17 +74,6 @@ export function Badge({
     ? `border ${colorClasses.border}`
     : "border border-transparent";
 
-  console.log(
-    "colorClasses:",
-    colorClasses,
-    "radiusClass",
-    radiusClass,
-    "backgroundClass",
-    backgroundClass,
-    "borderClass",
-    borderClass,
-  );
-
   return (
     <span
       className={[
