@@ -76,6 +76,7 @@ export function Badge({
 
   return (
     <span
+      data-testid="badge"
       className={[
         "inline-flex items-center justify-center whitespace-nowrap gap-1 px-2 py-1",
         "text-sm leading-5 font-normal tracking-[-0.02em]",
