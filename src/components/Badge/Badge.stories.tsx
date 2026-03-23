@@ -61,6 +61,12 @@ const meta = {
         disable: true,
       },
     },
+    testId: {
+      control: false,
+      table: {
+        disable: true,
+      },
+    },
   },
 } satisfies Meta<typeof Badge>;
 
