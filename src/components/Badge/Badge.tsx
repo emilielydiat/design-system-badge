@@ -53,8 +53,8 @@ const badgeColorClassMap: Record<
 
 const badgeRadiusClassMap: Record<BadgeRadius, string> = {
   square: "rounded-badge-square",
-  rounded: "rounded-badge-rounded",
   circle: "rounded-badge-circle",
+  rounded: "rounded-badge-rounded",
 };
 
 export function Badge({
